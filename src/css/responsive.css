@@ -1,0 +1,11 @@
+@media (max-width: 72rem) {
+  .main {
+    flex-direction: column;
+    gap: 3rem;
+    overflow: hidden;
+  }
+
+  .conteudo {
+    text-align: center;
+  }
+}

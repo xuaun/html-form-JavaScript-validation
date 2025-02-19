@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/variables.css" />
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <link rel="stylesheet" href="./src/css/responsive.css" />
+
+    <link
+      rel="icon"
+      href="https://pages.greatpages.com.br/evento.devemdobro.com-matriculas-abertas/1738150248/imagens/desktop/389257-d87072869328c12d232af3402ff0c636.png"
+    />
+
+    <title>Desafio - Formulário</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <meta
+      name="description"
+      content="Desafio do curso DevQuest de HTML, CSS e JavaScript - feito por João Víctor de Araujo Lima"
+    />
+    <meta
+      name="keywords"
+      content="programação, html, css, javascript, front-end, projeto, devquest"
+    />
+    <meta name="author" content="João Víctor de Araujo Lima" />
+    <meta name="language" content="Portuguese" />
+    <meta name="generator" content="Visual Studio Code" />
+  </head>
+  <body class="page">
+    <main class="main">
+      <div class="conteudo">
+        <h1 class="conteudo__titulo">
+          Ficou com Dúvida? <br />Nos mande uma mensagem!
+        </h1>
+        <p class="conteudo__texto">
+          caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e
+          entraremos em contato em menos de 24h.
+        </p>
+      </div>
+
+      <form method="POST" action="index.html" class="formulario">
+        <div class="formulario__item">
+          <input
+            type="text"
+            name="nome"
+            placeholder="Nome completo *"
+            class="formulario__campo"
+          />
+          <p class="invalido">campo obrigatório</p>
+        </div>
+
+        <div class="formulario__item">
+          <input
+            type="text"
+            name="email"
+            placeholder="Email *"
+            class="formulario__campo"
+          />
+          <p class="invalido">campo obrigatório</p>
+        </div>
+
+        <div class="formulario__item">
+          <input
+            type="text"
+            name="telefone"
+            placeholder="Telefone *"
+            class="formulario__campo"
+          />
+          <p class="invalido">campo obrigatório</p>
+        </div>
+
+        <div class="formulario__item">
+          <textarea
+            name="mensagem"
+            placeholder="Mensagem *"
+            class="formulario__campo"
+          ></textarea>
+          <p class="invalido">campo obrigatório</p>
+        </div>
+
+        <p class="formulario__texto">*campos obrigatórios</p>
+
+        <input type="submit" value="Enviar" id="submit" />
+      </form>
+    </main>
+
+    <footer class="attribution">
+      Challenge by
+      <a
+        href="https://www.frontendmentor.io?ref=challenge"
+        target="_blank"
+        class="attribution__link"
+        >Frontend Mentor</a
+      >. Coded by
+      <a
+        href="https://xuaun.github.io/"
+        target="_blank"
+        class="attribution__link"
+        >João Víctor de Araujo Lima</a
+      >.
+    </footer>
+
+    <script type="text/javascript" src="./src/js/formulario.js"></script>
+  </body>
+</html>

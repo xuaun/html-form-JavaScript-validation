@@ -1,0 +1,43 @@
+:root {
+  /* GLOBAL */
+  --background-color: hsl(218, 95%, 63%);
+  --font-family: "Roboto", sans-serif;
+
+  /* CONTEUDO */
+  --text-conteudo-color: hsl(0, 0%, 100%);
+
+  --titulo-conteudo-size: 2rem;
+  --titulo-conteudo-weight: 900;
+  --titulo-conteudo-height: 2.3rem;
+
+  --texto-conteudo-size: 1.5rem;
+  --texto-conteudo-weight: 400;
+  --texto-conteudo-height: 1.8rem;
+
+  /* FORMULÁRIO */
+  --fundo-formulario: hsl(0, 0%, 100%);
+  --fundo-input: hsl(0, 0%, 100%);
+  --fundo-submit: hsl(151, 59%, 52%);
+
+  --texto-formulario-color: hsl(0, 0%, 0%);
+  --texto-formulario-size: 1.5rem;
+  --texto-formulario-weight: 400;
+  --texto-formulario-height: 1.8rem;
+
+  --texto-placeholder-color: hsl(0, 0%, 66%);
+  --texto-placeholder-size: 1.5rem;
+  --texto-placeholder-weight: 700;
+  --texto-placeholder-height: 1.8rem;
+
+  --texto-submit-color: hsl(0, 0%, 100%);
+  --texto-submit-size: 1.5rem;
+  --texto-submit-weight: 700;
+  --texto-submit-height: 1.8rem;
+
+  --texto-invalido-color: hsl(0, 91%, 57%);
+  --texto-invalido-size: 0.8rem;
+  --texto-invalido-weight: 400;
+  --texto-invalido-height: 0.9rem;
+
+  --border-valido-color: hsla(133, 100%, 38%, 1);
+}
