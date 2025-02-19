@@ -44,7 +44,7 @@ This is a solution to the HTML + CSS + intermediate JavaScript challenge from th
 ### Links
 
 - Solution URL: [GitHub Repository](https://github.com/xuaun/html-form-JavaScript-validation)
-- Live Site URL: [Live Page](https://your-live-site-url.com)
+- Live Site URL: [Live Page](https://xuaun.github.io/html-form-JavaScript-validation/)
 
 ## My process
 
@@ -127,7 +127,7 @@ Esta é uma solução para o desafio de HTML + CSS + JavaScript intermediário d
 ### <p id="links-pt">Links</p>
 
 - Link da solução: [Repositório no GitHub](https://github.com/xuaun/html-form-JavaScript-validation)
-- Site com a solução: [Página do projeto no ar](https://your-live-site-url.com)
+- Site com a solução: [Página do projeto no ar](https://xuaun.github.io/html-form-JavaScript-validation/)
 
 ## Meu processo
 
